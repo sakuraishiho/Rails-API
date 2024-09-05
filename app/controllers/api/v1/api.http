@@ -1,0 +1,9 @@
+delete http://localhost:3000/api/vl/tasks/1
+content-Type: application/json
+
+{
+    "task": {
+        "title": "title_01",
+        "description": "description_01"
+    }
+}
